@@ -1,13 +1,13 @@
 # social_tech_initiator
 
-###SOCIAL TECH INITIATOR###
+### SOCIAL TECH INITIATOR ###
 
-##Steps to Run##
+## Steps to Run ##
 1. For your reference : My flutter version while developing this project : Flutter 3.27.1 | Dart 3.6.0
 2. run ```flutter pub get``` to get the dependencies
 3. Run the flutter app on android.
 
-##Notes##
+## Notes ##
 1. Used Cubit in Auth as it doesn't require event based approach for it being very simple.
 2. Used BloC pattern with proper event, state and bloc for the Posts Screen.
 3. Used both BloC and Cubit so that I can present the use case of both of them.
