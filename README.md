@@ -21,6 +21,5 @@
 11. APK Link : https://drive.google.com/drive/folders/14dJVrvOMAxcdFbUqewvVRmliSNGOZnyw?usp=drive_link
 12. Cloud Functions TypeScript file : https://drive.google.com/drive/folders/14dJVrvOMAxcdFbUqewvVRmliSNGOZnyw?usp=drive_link
 
-![Screenshot 2025-03-30 at 4 47 11 PM](https://github.com/user-attachments/assets/34f67af2-bd3b-421e-a83d-3a3ff9e8164e)
-
-![Screenshot 2025-03-30 at 4 47 20 PM](https://github.com/user-attachments/assets/5613c0e5-db20-4a4e-a6da-8fdfad80895e)
+![Screenshot 2025-03-30 at 5 31 32 PM](https://github.com/user-attachments/assets/6c8b2c96-eca4-460d-9b38-33c98b5d0a2e)
+![Screenshot 2025-03-30 at 5 31 35 PM](https://github.com/user-attachments/assets/af55e32f-2603-4573-b0ac-895a33659ad0)
