@@ -1,9 +1,12 @@
 import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:social_tech_initiator/src/blocs/posts/posts_bloc.dart';
 import 'package:social_tech_initiator/src/utils/app_strings.dart';
+import 'package:social_tech_initiator/src/utils/firebase_notification_manager.dart';
 import 'package:social_tech_initiator/src/utils/shared_prefs_utils.dart';
+import 'package:social_tech_initiator/src/utils/utils.dart';
 
 import 'routes.dart';
 import 'src/blocs/auth/auth_cubit.dart';
@@ -14,8 +17,15 @@ void main() async {
 
   await Firebase.initializeApp();
   await SharedPrefsUtils.init();
+  FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
+
+  await FirebaseNotificationManager.init();
 
   runApp(MyApp());
+}
+
+Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
+  flutterPrint('Handling a background message: ${message.messageId}');
 }
 
 class MyApp extends StatelessWidget {
